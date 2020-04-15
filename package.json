@@ -18,5 +18,9 @@
     "scss"
   ],
   "author": "mattonit",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.6.1",
+    "rollup-plugin-postcss": "^2.6.4"
+  }
 }
