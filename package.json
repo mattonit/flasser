@@ -13,11 +13,13 @@
     "url": "git+https://github.com/mattonit/flasser.git"
   },
   "keywords": [
-    "flasser",
     "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
     "framework",
-    "css",
-    "scss"
+    "web"
   ],
   "author": "mattonit",
   "license": "MIT",
