@@ -23,3 +23,40 @@
     max-width: 100%;
   }
 }
+
+.cell-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cell {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+[class*="cell-"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@each $name, $size in $media-breakpoints {
+  @include media-query($size) {
+
+    $infix: breakpoint-infix($name);
+
+    @for $i from 1 through $cell-count {
+      .cell#{$infix}-#{$i} {
+        position: relative;
+        flex: 0 0 $cell-width * $i;
+        width: 100%;
+        max-width: $cell-width * $i;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    }
+  }
+}
