@@ -4,6 +4,7 @@
   "description": "CSS Framework for creating web applications faster",
   "main": "index.js",
   "scripts": {
+    "rollup": "rollup -c config/rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +21,23 @@
   "author": "mattonit",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.13.1",
     "rollup": "^2.6.1",
     "rollup-plugin-postcss": "^2.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
   }
 }
