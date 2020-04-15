@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include media-query($media-breakpoint-sm) {
+    max-width: $wrapper-width-sm;
+  }
+  @include media-query($media-breakpoint-md) {
+    max-width: $wrapper-width-md;
+  }
+  @include media-query($media-breakpoint-lg) {
+    max-width: $wrapper-width-lg;
+  }
+  @include media-query($media-breakpoint-xl) {
+    max-width: $wrapper-width-xl;
+  }
+
+  &-wide {
+    max-width: 100%;
+  }
+}
