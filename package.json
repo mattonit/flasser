@@ -41,17 +41,17 @@
       "pre-commit": "npm run lint:scss"
     }
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version",
-      "last 1 ie version"
-    ]
-  }
+  "browserslist": [
+    ">= 1%",
+    "last 1 major version",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Edge >= 16.16299",
+    "iOS >= 10",
+    "Safari >= 10",
+    "Android >= 6",
+    "not Explorer <= 11",
+    "not ExplorerMobile <= 11"
+  ]
 }
