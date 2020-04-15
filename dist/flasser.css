@@ -6,6 +6,15 @@
  * https://github.com.mattonit/flasser
  *
  */
+*,
+::after,
+::before {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1rem;
+  line-height: 1.5; }
+
 .wrapper {
   position: relative;
   width: 100%;
@@ -27,3 +36,749 @@
       max-width: 1140px; } }
   .wrapper-wide {
     max-width: 100%; }
+
+.cell-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.cell {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+[class*="cell-"] {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-1 {
+  position: relative;
+  flex: 0 0 6.25%;
+  width: 100%;
+  max-width: 6.25%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-2 {
+  position: relative;
+  flex: 0 0 12.5%;
+  width: 100%;
+  max-width: 12.5%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-3 {
+  position: relative;
+  flex: 0 0 18.75%;
+  width: 100%;
+  max-width: 18.75%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-4 {
+  position: relative;
+  flex: 0 0 25%;
+  width: 100%;
+  max-width: 25%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-5 {
+  position: relative;
+  flex: 0 0 31.25%;
+  width: 100%;
+  max-width: 31.25%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-6 {
+  position: relative;
+  flex: 0 0 37.5%;
+  width: 100%;
+  max-width: 37.5%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-7 {
+  position: relative;
+  flex: 0 0 43.75%;
+  width: 100%;
+  max-width: 43.75%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-8 {
+  position: relative;
+  flex: 0 0 50%;
+  width: 100%;
+  max-width: 50%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-9 {
+  position: relative;
+  flex: 0 0 56.25%;
+  width: 100%;
+  max-width: 56.25%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-10 {
+  position: relative;
+  flex: 0 0 62.5%;
+  width: 100%;
+  max-width: 62.5%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-11 {
+  position: relative;
+  flex: 0 0 68.75%;
+  width: 100%;
+  max-width: 68.75%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-12 {
+  position: relative;
+  flex: 0 0 75%;
+  width: 100%;
+  max-width: 75%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-13 {
+  position: relative;
+  flex: 0 0 81.25%;
+  width: 100%;
+  max-width: 81.25%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-14 {
+  position: relative;
+  flex: 0 0 87.5%;
+  width: 100%;
+  max-width: 87.5%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-15 {
+  position: relative;
+  flex: 0 0 93.75%;
+  width: 100%;
+  max-width: 93.75%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.cell-16 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media (min-width: 576px) {
+  .cell-sm-1 {
+    position: relative;
+    flex: 0 0 6.25%;
+    width: 100%;
+    max-width: 6.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-2 {
+    position: relative;
+    flex: 0 0 12.5%;
+    width: 100%;
+    max-width: 12.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-3 {
+    position: relative;
+    flex: 0 0 18.75%;
+    width: 100%;
+    max-width: 18.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-4 {
+    position: relative;
+    flex: 0 0 25%;
+    width: 100%;
+    max-width: 25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-5 {
+    position: relative;
+    flex: 0 0 31.25%;
+    width: 100%;
+    max-width: 31.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-6 {
+    position: relative;
+    flex: 0 0 37.5%;
+    width: 100%;
+    max-width: 37.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-7 {
+    position: relative;
+    flex: 0 0 43.75%;
+    width: 100%;
+    max-width: 43.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-8 {
+    position: relative;
+    flex: 0 0 50%;
+    width: 100%;
+    max-width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-9 {
+    position: relative;
+    flex: 0 0 56.25%;
+    width: 100%;
+    max-width: 56.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-10 {
+    position: relative;
+    flex: 0 0 62.5%;
+    width: 100%;
+    max-width: 62.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-11 {
+    position: relative;
+    flex: 0 0 68.75%;
+    width: 100%;
+    max-width: 68.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-12 {
+    position: relative;
+    flex: 0 0 75%;
+    width: 100%;
+    max-width: 75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-13 {
+    position: relative;
+    flex: 0 0 81.25%;
+    width: 100%;
+    max-width: 81.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-14 {
+    position: relative;
+    flex: 0 0 87.5%;
+    width: 100%;
+    max-width: 87.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-15 {
+    position: relative;
+    flex: 0 0 93.75%;
+    width: 100%;
+    max-width: 93.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-sm-16 {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 768px) {
+  .cell-md-1 {
+    position: relative;
+    flex: 0 0 6.25%;
+    width: 100%;
+    max-width: 6.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-2 {
+    position: relative;
+    flex: 0 0 12.5%;
+    width: 100%;
+    max-width: 12.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-3 {
+    position: relative;
+    flex: 0 0 18.75%;
+    width: 100%;
+    max-width: 18.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-4 {
+    position: relative;
+    flex: 0 0 25%;
+    width: 100%;
+    max-width: 25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-5 {
+    position: relative;
+    flex: 0 0 31.25%;
+    width: 100%;
+    max-width: 31.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-6 {
+    position: relative;
+    flex: 0 0 37.5%;
+    width: 100%;
+    max-width: 37.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-7 {
+    position: relative;
+    flex: 0 0 43.75%;
+    width: 100%;
+    max-width: 43.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-8 {
+    position: relative;
+    flex: 0 0 50%;
+    width: 100%;
+    max-width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-9 {
+    position: relative;
+    flex: 0 0 56.25%;
+    width: 100%;
+    max-width: 56.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-10 {
+    position: relative;
+    flex: 0 0 62.5%;
+    width: 100%;
+    max-width: 62.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-11 {
+    position: relative;
+    flex: 0 0 68.75%;
+    width: 100%;
+    max-width: 68.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-12 {
+    position: relative;
+    flex: 0 0 75%;
+    width: 100%;
+    max-width: 75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-13 {
+    position: relative;
+    flex: 0 0 81.25%;
+    width: 100%;
+    max-width: 81.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-14 {
+    position: relative;
+    flex: 0 0 87.5%;
+    width: 100%;
+    max-width: 87.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-15 {
+    position: relative;
+    flex: 0 0 93.75%;
+    width: 100%;
+    max-width: 93.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-md-16 {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 992px) {
+  .cell-lg-1 {
+    position: relative;
+    flex: 0 0 6.25%;
+    width: 100%;
+    max-width: 6.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-2 {
+    position: relative;
+    flex: 0 0 12.5%;
+    width: 100%;
+    max-width: 12.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-3 {
+    position: relative;
+    flex: 0 0 18.75%;
+    width: 100%;
+    max-width: 18.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-4 {
+    position: relative;
+    flex: 0 0 25%;
+    width: 100%;
+    max-width: 25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-5 {
+    position: relative;
+    flex: 0 0 31.25%;
+    width: 100%;
+    max-width: 31.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-6 {
+    position: relative;
+    flex: 0 0 37.5%;
+    width: 100%;
+    max-width: 37.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-7 {
+    position: relative;
+    flex: 0 0 43.75%;
+    width: 100%;
+    max-width: 43.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-8 {
+    position: relative;
+    flex: 0 0 50%;
+    width: 100%;
+    max-width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-9 {
+    position: relative;
+    flex: 0 0 56.25%;
+    width: 100%;
+    max-width: 56.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-10 {
+    position: relative;
+    flex: 0 0 62.5%;
+    width: 100%;
+    max-width: 62.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-11 {
+    position: relative;
+    flex: 0 0 68.75%;
+    width: 100%;
+    max-width: 68.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-12 {
+    position: relative;
+    flex: 0 0 75%;
+    width: 100%;
+    max-width: 75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-13 {
+    position: relative;
+    flex: 0 0 81.25%;
+    width: 100%;
+    max-width: 81.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-14 {
+    position: relative;
+    flex: 0 0 87.5%;
+    width: 100%;
+    max-width: 87.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-15 {
+    position: relative;
+    flex: 0 0 93.75%;
+    width: 100%;
+    max-width: 93.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-lg-16 {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 1200px) {
+  .cell-xl-1 {
+    position: relative;
+    flex: 0 0 6.25%;
+    width: 100%;
+    max-width: 6.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-2 {
+    position: relative;
+    flex: 0 0 12.5%;
+    width: 100%;
+    max-width: 12.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-3 {
+    position: relative;
+    flex: 0 0 18.75%;
+    width: 100%;
+    max-width: 18.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-4 {
+    position: relative;
+    flex: 0 0 25%;
+    width: 100%;
+    max-width: 25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-5 {
+    position: relative;
+    flex: 0 0 31.25%;
+    width: 100%;
+    max-width: 31.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-6 {
+    position: relative;
+    flex: 0 0 37.5%;
+    width: 100%;
+    max-width: 37.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-7 {
+    position: relative;
+    flex: 0 0 43.75%;
+    width: 100%;
+    max-width: 43.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-8 {
+    position: relative;
+    flex: 0 0 50%;
+    width: 100%;
+    max-width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-9 {
+    position: relative;
+    flex: 0 0 56.25%;
+    width: 100%;
+    max-width: 56.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-10 {
+    position: relative;
+    flex: 0 0 62.5%;
+    width: 100%;
+    max-width: 62.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-11 {
+    position: relative;
+    flex: 0 0 68.75%;
+    width: 100%;
+    max-width: 68.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-12 {
+    position: relative;
+    flex: 0 0 75%;
+    width: 100%;
+    max-width: 75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-13 {
+    position: relative;
+    flex: 0 0 81.25%;
+    width: 100%;
+    max-width: 81.25%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-14 {
+    position: relative;
+    flex: 0 0 87.5%;
+    width: 100%;
+    max-width: 87.5%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-15 {
+    position: relative;
+    flex: 0 0 93.75%;
+    width: 100%;
+    max-width: 93.75%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cell-xl-16 {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+.btn {
+  padding: 10px 15px;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 3px;
+  transition: all 100ms; }
+  .btn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .btn:active {
+    transform: translateY(1px); }
+  .btn:focus, .btn:active {
+    outline: 0; }
+
+.btn-negative {
+  color: #fff;
+  background-color: #f44; }
+  .btn-negative:hover, .btn-negative:focus {
+    background-color: #ff2b2b; }
+  .btn-negative:disabled {
+    background-color: #ff5e5e; }
+  .btn-negative:active, .btn-negative.active {
+    background-color: #ff1b1b; }
+
+.btn-info {
+  color: #fff;
+  background-color: #00cbe6; }
+  .btn-info:hover, .btn-info:focus {
+    background-color: #00b4cd; }
+  .btn-info:disabled {
+    background-color: #01e1ff; }
+  .btn-info:active, .btn-info.active {
+    background-color: #00a7bd; }
+
+.btn-positive {
+  color: #fff;
+  background-color: #00e089; }
+  .btn-positive:hover, .btn-positive:focus {
+    background-color: #00c779; }
+  .btn-positive:disabled {
+    background-color: #00fa99; }
+  .btn-positive:active, .btn-positive.active {
+    background-color: #00b770; }
+
+.btn-default {
+  color: #707070;
+  background-color: #dfe0e4; }
+  .btn-default:hover, .btn-default:focus {
+    background-color: #d1d3d8; }
+  .btn-default:disabled {
+    background-color: #ededf0; }
+  .btn-default:active, .btn-default.active {
+    background-color: #c9cbd1; }
+
+.btn-warning {
+  color: #707070;
+  background-color: #ffd33d; }
+  .btn-warning:hover, .btn-warning:focus {
+    background-color: #ffcd24; }
+  .btn-warning:disabled {
+    background-color: #ffd957; }
+  .btn-warning:active, .btn-warning.active {
+    background-color: #ffca14; }

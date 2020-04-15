@@ -20,3 +20,26 @@ $wrapper-width-xl: 1140px !default;
 
 $cell-count: 16 !default;
 $cell-width: 100% / $cell-count !default;
+
+$contrasted-threshold: 150 !default;
+
+// Color definitions
+$negative-color: #f44 !default;
+$info-color: #00cbe6 !default;
+$positive-color: #00e089 !default;
+$default-color: #dfe0e4 !default;
+$warning-color: #ffd33d !default;
+
+$functional-colors: (
+  "negative": $negative-color,
+  "info": $info-color,
+  "positive": $positive-color,
+  "default": $default-color,
+  "warning": $warning-color
+) !default;
+
+$btn-txt-dark: #707070 !default;
+$btn-txt-light: #fff !default;
+
+$white-color: #fff !default;
+$grey-color: #808080 !default;
