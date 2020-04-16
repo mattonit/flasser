@@ -12,6 +12,7 @@
   box-sizing: border-box; }
 
 body {
+  margin: 0;
   font-size: 1rem;
   line-height: 1.5; }
 
@@ -782,3 +783,25 @@ body {
     background-color: #ffd957; }
   .btn-warning:active, .btn-warning.active {
     background-color: #ffca14; }
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 1rem;
+  background-color: #fff; }
+  .header > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    padding-left: 0; }
+  .header-logo {
+    display: inline-block;
+    color: inherit; }
+  .header.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; }
