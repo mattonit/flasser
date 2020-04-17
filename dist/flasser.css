@@ -761,6 +761,8 @@ body {
     padding: 12px 14px; }
   .btn.btn-full {
     width: 100%; }
+  .btn + .btn {
+    margin-left: 8px; }
 
 .btn-negative {
   color: #fff;
