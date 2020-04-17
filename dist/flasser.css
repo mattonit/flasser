@@ -835,6 +835,12 @@ body {
     top: 0;
     right: 0;
     left: 0; }
+  .header.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0; }
 
 .input {
   display: inline-block;
@@ -1829,3 +1835,77 @@ body {
   .ml-xl-auto,
   .mx-xl-auto {
     margin-left: auto !important; } }
+
+.d-none {
+  display: none !important; }
+
+.d-block {
+  display: block !important; }
+
+.d-inline-block {
+  display: inline-block !important; }
+
+.d-flex {
+  display: flex !important; }
+
+.d-inline-flex {
+  display: inline-flex !important; }
+
+.d-grid {
+  display: grid !important; }
+
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important; }
+  .d-sm-block {
+    display: block !important; }
+  .d-sm-inline-block {
+    display: inline-block !important; }
+  .d-sm-flex {
+    display: flex !important; }
+  .d-sm-inline-flex {
+    display: inline-flex !important; }
+  .d-sm-grid {
+    display: grid !important; } }
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none !important; }
+  .d-md-block {
+    display: block !important; }
+  .d-md-inline-block {
+    display: inline-block !important; }
+  .d-md-flex {
+    display: flex !important; }
+  .d-md-inline-flex {
+    display: inline-flex !important; }
+  .d-md-grid {
+    display: grid !important; } }
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important; }
+  .d-lg-block {
+    display: block !important; }
+  .d-lg-inline-block {
+    display: inline-block !important; }
+  .d-lg-flex {
+    display: flex !important; }
+  .d-lg-inline-flex {
+    display: inline-flex !important; }
+  .d-lg-grid {
+    display: grid !important; } }
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none !important; }
+  .d-xl-block {
+    display: block !important; }
+  .d-xl-inline-block {
+    display: inline-block !important; }
+  .d-xl-flex {
+    display: flex !important; }
+  .d-xl-inline-flex {
+    display: inline-flex !important; }
+  .d-xl-grid {
+    display: grid !important; } }
