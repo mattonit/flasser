@@ -6,6 +6,76 @@
  * https://github.com.mattonit/flasser
  *
  */
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-justify {
+  text-align: justify; }
+
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left; }
+  .text-sm-center {
+    text-align: center; }
+  .text-sm-right {
+    text-align: right; }
+  .text-sm-justify {
+    text-align: justify; } }
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left; }
+  .text-md-center {
+    text-align: center; }
+  .text-md-right {
+    text-align: right; }
+  .text-md-justify {
+    text-align: justify; } }
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left; }
+  .text-lg-center {
+    text-align: center; }
+  .text-lg-right {
+    text-align: right; }
+  .text-lg-justify {
+    text-align: justify; } }
+
+@media (min-width: 1200px) {
+  .text-xl-left {
+    text-align: left; }
+  .text-xl-center {
+    text-align: center; }
+  .text-xl-right {
+    text-align: right; }
+  .text-xl-justify {
+    text-align: justify; } }
+
+.fw-lighter {
+  font-weight: lighter; }
+
+.fw-100 {
+  font-weight: 100; }
+
+.fw-300 {
+  font-weight: 300; }
+
+.fw-400 {
+  font-weight: 400; }
+
+.fw-600 {
+  font-weight: 600; }
+
+.fw-bolder {
+  font-weight: bolder; }
+
 *,
 ::after,
 ::before {
@@ -1169,7 +1239,8 @@ a:hover {
     list-style: none; }
 
 .form-control {
-  display: inline-block;
+  display: block;
+  width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
