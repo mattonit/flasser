@@ -38,6 +38,7 @@ $functional-colors: (
   "warning": $warning-color
 ) !default;
 
+$dark-color: #141823 !default;
 $btn-txt-dark: #707070 !default;
 $btn-txt-light: #fff !default;
 
@@ -46,19 +47,27 @@ $grey-color: #808080 !default;
 
 // Globals
 $body-bg-color: $white-color !default;
-$body-color: $btn-txt-dark !default;
+$body-color: $dark-color !default;
 $body-font-size: 1rem !default;
 $body-font-weight: 400 !default;
 
 // Inputs
-$input-btn-padding-y: .375rem !default;
-$input-btn-padding-x: .75rem !default;
+$input-padding-y: .375rem !default;
+$input-padding-x: .75rem !default;
 $input-font-size: $body-font-size !default;
 
 // Buttons variables
 $btn-disabled-opacity: .65 !default;
-$btn-padding-x: $input-btn-padding-x !default;
-$btn-padding-y: $input-btn-padding-y !default;
+$btn-padding-y: $input-padding-y !default;
+$btn-padding-x: $input-padding-x !default;
 $btn-font-size: $body-font-size !default;
 $btn-font-weight: $body-font-weight !default;
-$btn-border-radius: 3px !default;
+$btn-border-radius: .25rem !default;
+$btn-xs-padding-y: .375rem !default;
+$btn-xs-padding-x: .5625rem !default;
+$btn-sm-padding-y: .5rem !default;
+$btn-sm-padding-x: .875rem !default;
+$btn-md-padding-y: .625rem !default;
+$btn-md-padding-x: 1rem !default;
+$btn-lg-padding-y: .75rem !default;
+$btn-lg-padding-x: .625rem !default;

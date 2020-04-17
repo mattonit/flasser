@@ -1,5 +1,6 @@
 .btn {
-  padding: $input-btn-padding-y $input-btn-padding-x;
+  display: inline-block;
+  padding: $input-padding-y $input-padding-x;
   font-size: $btn-font-size;
   font-weight: $btn-font-weight;
   line-height: 1.5;
@@ -7,6 +8,7 @@
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  vertical-align: middle;
   cursor: pointer;
   user-select: none;
   background-color: transparent;
@@ -31,6 +33,27 @@
   &.disabled {
     pointer-events: none;
     opacity: $btn-disabled-opacity;
+  }
+
+  &.btn-xs {
+    padding: 6px 9px;
+    font-size: .85em;
+  }
+
+  &.btn-sm {
+    padding: 8px 14px;
+  }
+
+  &.btn-md {
+    padding: $btn-md-padding-y $btn-md-padding-x;
+  }
+
+  &.btn-lg {
+    padding: 12px 14px;
+  }
+
+  &.btn-full {
+    width: 100%;
   }
 }
 
