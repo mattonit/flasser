@@ -32,4 +32,12 @@
     right: 0;
     left: 0;
   }
+
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
 }

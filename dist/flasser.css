@@ -841,6 +841,12 @@ body {
     top: 0;
     right: 0;
     left: 0; }
+  .header .header-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none; }
 
 .input {
   display: inline-block;
