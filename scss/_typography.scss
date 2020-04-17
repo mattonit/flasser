@@ -11,6 +11,31 @@
   }
 }
 
+h1 {
+  @extend .heading-xl;
+}
+
+h2 {
+  @extend .heading-lg;
+}
+
+h3 {
+  @extend .heading-md;
+}
+
+h4 {
+  @extend .heading-sm;
+}
+
+h5 {
+  @extend .heading-xs;
+}
+
+h6 {
+  @extend %heading;
+  font-size: $body-font-size;
+}
+
 @each $breakpoint, $size in $media-breakpoints {
   @include media-query($size) {
 

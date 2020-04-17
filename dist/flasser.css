@@ -6,25 +6,28 @@
  * https://github.com.mattonit/flasser
  *
  */
-.heading-xl, .heading-lg, .heading-md, .heading-sm, .heading-xs {
+.heading-xl, h1, .heading-lg, h2, .heading-md, h3, .heading-sm, h4, .heading-xs, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem;
   letter-spacing: -0.4px; }
 
-.heading-xl {
+.heading-xl, h1 {
   font-size: 2.5rem; }
 
-.heading-lg {
+.heading-lg, h2 {
   font-size: 2rem; }
 
-.heading-md {
+.heading-md, h3 {
   font-size: 1.75rem; }
 
-.heading-sm {
+.heading-sm, h4 {
   font-size: 1.5rem; }
 
-.heading-xs {
+.heading-xs, h5 {
   font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
 
 .text-left {
   text-align: left; }
