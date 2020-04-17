@@ -17,6 +17,7 @@
   transition: all 100ms;
 
   &:hover {
+    color: $body-color;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   }
 
@@ -38,6 +39,7 @@
   &.btn-link {
     font-weight: $body-font-weight;
     &:hover {
+      color: $primary-color;
       box-shadow: none;
     }
   }

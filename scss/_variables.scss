@@ -101,6 +101,8 @@ $gradients: map-merge(
 $use-gradients: true !default;
 $gradient-angle: 90deg !default;
 
+$link-color: $black-color !default;
+
 // Spacing
 $spacer: 1rem !default;
 $spacers: () !default;

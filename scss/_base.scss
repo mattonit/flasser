@@ -13,3 +13,12 @@ body {
   color: $body-color;
   background: $body-bg-color;
 }
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $primary-color;
+}
