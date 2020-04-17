@@ -43,3 +43,12 @@ $btn-txt-light: #fff !default;
 
 $white-color: #fff !default;
 $grey-color: #808080 !default;
+
+// Globals
+$body-bg-color: $white-color !default;
+$body-color: $btn-txt-dark !default;
+$body-font-size: 1rem !default;
+$body-font-weight: 400 !default;
+
+// Buttons variables
+$btn-disabled-opacity: .65 !default;
