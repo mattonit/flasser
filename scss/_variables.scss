@@ -173,3 +173,16 @@ $font-weights: (
   600,
   bolder
 ) !default;
+
+$heading-border-bottom: 1rem !default;
+$heading-letter-spacing: -.4px !default;
+$heading-font-weight: 500 !default;
+$heading-line-height: 1.2 !default;
+
+$heading-font-sizes: (
+  "xl": $body-font-size * 2.5,
+  "lg": $body-font-size * 2,
+  "md": $body-font-size * 1.75,
+  "sm": $body-font-size * 1.5,
+  "xs": $body-font-size * 1.25,
+) !default;

@@ -1,3 +1,16 @@
+%heading {
+  margin-top: 0;
+  margin-bottom: $heading-border-bottom;
+  letter-spacing: $heading-letter-spacing;
+}
+
+@each $name, $size in $heading-font-sizes {
+  .heading-#{$name} {
+    @extend %heading;
+    font-size: $size;
+  }
+}
+
 @each $breakpoint, $size in $media-breakpoints {
   @include media-query($size) {
 
