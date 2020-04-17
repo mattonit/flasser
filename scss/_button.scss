@@ -43,12 +43,12 @@
   }
 
   &.btn-xs {
-    padding: 6px 9px;
+    padding: $btn-xs-padding-y $btn-xs-padding-x;
     font-size: .85em;
   }
 
   &.btn-sm {
-    padding: 8px 14px;
+    padding: $btn-sm-padding-y $btn-sm-padding-x;
   }
 
   &.btn-md {
@@ -56,7 +56,7 @@
   }
 
   &.btn-lg {
-    padding: 12px 14px;
+    padding: $btn-lg-padding-y $btn-lg-padding-x;
   }
 
   &.btn-full {

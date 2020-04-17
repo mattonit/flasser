@@ -66,6 +66,7 @@ $full-palette: (
 $black-color: #141823 !default;
 $grey-color: #808080 !default;
 $white-color: #fff !default;
+$light-grey: #efefef !default;
 
 // Brand colors
 $primary-color: #09cc8d !default;
@@ -122,17 +123,10 @@ $body-color: $black-color !default;
 $body-font-size: 1rem !default;
 $body-font-weight: 400 !default;
 
-// Inputs
-$input-padding-y: .375rem !default;
-$input-padding-x: .75rem !default;
-$input-font-size: $body-font-size !default;
-$input-border-radius: .25rem !default;
-$input-font-weight: $body-font-weight !default;
-
 // Buttons variables
 $btn-disabled-opacity: .65 !default;
-$btn-padding-y: $input-padding-y !default;
-$btn-padding-x: $input-padding-x !default;
+$btn-padding-y: .375rem !default;
+$btn-padding-x: .75rem !default;
 $btn-font-size: $body-font-size !default;
 $btn-font-weight: 600 !default;
 $btn-border-radius: .25rem !default;
@@ -146,4 +140,12 @@ $btn-lg-padding-y: .75rem !default;
 $btn-lg-padding-x: .625rem !default;
 $btn-txt-dark: $grey-color !default;
 $btn-txt-light: $white-color !default;
-$btn-outline-border: #efefef !default;
+$btn-outline-border: $light-grey !default;
+
+// Inputs
+$input-padding-y: $btn-padding-y !default;
+$input-padding-x: $btn-padding-x !default;
+$input-font-size: $body-font-size !default;
+$input-border-radius: .25rem !default;
+$input-font-weight: $body-font-weight !default;
+$input-outline-color: $primary-color !default;
