@@ -1,0 +1,11 @@
+.input {
+  display: inline-block;
+  padding: $input-padding-y $input-padding-x;
+  font-size: $btn-font-size;
+  font-weight: $input-font-weight;
+  line-height: 1.5;
+  color: $body-color;
+  background: #eff1f7;
+  border-width: 0;
+  border-radius: $input-border-radius;
+}

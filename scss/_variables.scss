@@ -55,13 +55,15 @@ $body-font-weight: 400 !default;
 $input-padding-y: .375rem !default;
 $input-padding-x: .75rem !default;
 $input-font-size: $body-font-size !default;
+$input-border-radius: .25rem !default;
+$input-font-weight: $body-font-weight !default;
 
 // Buttons variables
 $btn-disabled-opacity: .65 !default;
 $btn-padding-y: $input-padding-y !default;
 $btn-padding-x: $input-padding-x !default;
 $btn-font-size: $body-font-size !default;
-$btn-font-weight: $body-font-weight !default;
+$btn-font-weight: 600 !default;
 $btn-border-radius: .25rem !default;
 $btn-xs-padding-y: .375rem !default;
 $btn-xs-padding-x: .5625rem !default;

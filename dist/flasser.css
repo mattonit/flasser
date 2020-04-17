@@ -725,7 +725,7 @@ body {
   display: inline-block;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
   color: #141823;
   text-align: center;
@@ -835,3 +835,14 @@ body {
     top: 0;
     right: 0;
     left: 0; }
+
+.input {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #141823;
+  background: #eff1f7;
+  border-width: 0;
+  border-radius: 0.25rem; }
