@@ -20,6 +20,13 @@ body {
   color: #141823;
   background: #fff; }
 
+a {
+  color: #141823;
+  text-decoration: none; }
+
+a:hover {
+  color: #09cc8d; }
+
 .wrapper {
   position: relative;
   width: 100%;
@@ -742,6 +749,7 @@ body {
   border-radius: 0.25rem;
   transition: all 100ms; }
   .btn:hover {
+    color: #141823;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
   .btn:active {
     transform: translateY(1px); }
@@ -753,6 +761,7 @@ body {
   .btn.btn-link {
     font-weight: 400; }
     .btn.btn-link:hover {
+      color: #09cc8d;
       box-shadow: none; }
   .btn.btn-xs {
     padding: 0.375rem 0.5625rem;
@@ -782,6 +791,7 @@ body {
   color: #f70000;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-negative:hover, .btn-outline-negative:focus {
+    color: #f70000;
     box-shadow: inset 0 0 0 1px #f44; }
 
 .btn-info {
@@ -798,6 +808,7 @@ body {
   color: #00cbe6;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-info:hover, .btn-outline-info:focus {
+    color: #00cbe6;
     box-shadow: inset 0 0 0 1px #00cbe6; }
 
 .btn-positive {
@@ -814,6 +825,7 @@ body {
   color: #00e089;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-positive:hover, .btn-outline-positive:focus {
+    color: #00e089;
     box-shadow: inset 0 0 0 1px #00e089; }
 
 .btn-default {
@@ -830,6 +842,7 @@ body {
   color: #b6b8c1;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-default:hover, .btn-outline-default:focus {
+    color: #b6b8c1;
     box-shadow: inset 0 0 0 1px #dfe0e4; }
 
 .btn-warning {
@@ -846,6 +859,7 @@ body {
   color: #f0b900;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-warning:hover, .btn-outline-warning:focus {
+    color: #f0b900;
     box-shadow: inset 0 0 0 1px #ffd33d; }
 
 .btn-red {
@@ -862,6 +876,7 @@ body {
   color: #d62707;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-red:hover, .btn-outline-red:focus {
+    color: #d62707;
     box-shadow: inset 0 0 0 1px #f85032; }
 
 .btn-orange {
@@ -878,6 +893,7 @@ body {
   color: #f57c00;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-orange:hover, .btn-outline-orange:focus {
+    color: #f57c00;
     box-shadow: inset 0 0 0 1px #f57c00; }
 
 .btn-yellow {
@@ -894,6 +910,7 @@ body {
   color: #fffc00;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-yellow:hover, .btn-outline-yellow:focus {
+    color: #fffc00;
     box-shadow: inset 0 0 0 1px #fffc00; }
 
 .btn-green {
@@ -910,6 +927,7 @@ body {
   color: #4caf50;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-green:hover, .btn-outline-green:focus {
+    color: #4caf50;
     box-shadow: inset 0 0 0 1px #4caf50; }
 
 .btn-leaf {
@@ -926,6 +944,7 @@ body {
   color: #3aa17e;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-leaf:hover, .btn-outline-leaf:focus {
+    color: #3aa17e;
     box-shadow: inset 0 0 0 1px #3aa17e; }
 
 .btn-teal {
@@ -942,6 +961,7 @@ body {
   color: #008080;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-teal:hover, .btn-outline-teal:focus {
+    color: #008080;
     box-shadow: inset 0 0 0 1px #008080; }
 
 .btn-blue {
@@ -958,6 +978,7 @@ body {
   color: #0366d6;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-blue:hover, .btn-outline-blue:focus {
+    color: #0366d6;
     box-shadow: inset 0 0 0 1px #0366d6; }
 
 .btn-mint {
@@ -974,6 +995,7 @@ body {
   color: #58cbab;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-mint:hover, .btn-outline-mint:focus {
+    color: #58cbab;
     box-shadow: inset 0 0 0 1px #92ddc8; }
 
 .btn-purple {
@@ -990,6 +1012,7 @@ body {
   color: #4a2dbe;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-purple:hover, .btn-outline-purple:focus {
+    color: #4a2dbe;
     box-shadow: inset 0 0 0 1px #4a2dbe; }
 
 .btn-pink {
@@ -1006,6 +1029,7 @@ body {
   color: #fb1cf8;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-pink:hover, .btn-outline-pink:focus {
+    color: #fb1cf8;
     box-shadow: inset 0 0 0 1px #fc67fa; }
 
 .btn-primary {
@@ -1022,6 +1046,7 @@ body {
   color: #09cc8d;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-primary:hover, .btn-outline-primary:focus {
+    color: #09cc8d;
     box-shadow: inset 0 0 0 1px #09cc8d; }
 
 .btn-secondary {
@@ -1038,6 +1063,7 @@ body {
   color: #363e71;
   box-shadow: inset 0 0 0 1px #efefef; }
   .btn-outline-secondary:hover, .btn-outline-secondary:focus {
+    color: #363e71;
     box-shadow: inset 0 0 0 1px #363e71; }
 
 .btn-brand {
@@ -1045,8 +1071,10 @@ body {
   background-color: #09cc8d;
   background-image: linear-gradient(90deg, #09cc8d, #068e62); }
   .btn-brand:focus, .btn-brand:hover {
+    color: #fff;
     background-image: linear-gradient(90deg, #08b47c, #057651); }
   .btn-brand:active, .btn-brand.active {
+    color: #fff;
     background-image: linear-gradient(90deg, #07a572, #046747); }
 
 .btn-coral {
@@ -1054,8 +1082,10 @@ body {
   background-color: #e83e3e;
   background-image: linear-gradient(90deg, #e83e3e, #e83e62); }
   .btn-coral:focus, .btn-coral:hover {
+    color: #fff;
     background-image: linear-gradient(90deg, #e52727, #e5274f); }
   .btn-coral:active, .btn-coral.active {
+    color: #fff;
     background-image: linear-gradient(90deg, #e21b1b, #e21b45); }
 
 .btn-aqua {
@@ -1063,8 +1093,10 @@ body {
   background-color: #5ed1f7;
   background-image: linear-gradient(90deg, #5ed1f7, #4080ff); }
   .btn-aqua:focus, .btn-aqua:hover {
+    color: #fff;
     background-image: linear-gradient(90deg, #46caf6, #276fff); }
   .btn-aqua:active, .btn-aqua.active {
+    color: #fff;
     background-image: linear-gradient(90deg, #37c6f5, #1765ff); }
 
 .header {
@@ -1073,6 +1105,17 @@ body {
   min-height: 56px;
   padding: 0 1rem;
   background-color: #fff; }
+  .header.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0; }
+  .header.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; }
   .header > .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1080,23 +1123,13 @@ body {
     justify-content: space-between;
     padding-right: 0;
     padding-left: 0; }
-  .header-logo {
+  .header .header-logo {
     display: inline-block;
     color: inherit; }
-  .header.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0; }
-  .header.sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0; }
   .header .header-nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
