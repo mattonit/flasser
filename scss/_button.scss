@@ -70,13 +70,15 @@
 
 @each $name, $color in $functional-colors {
   @include make-button($name, $color);
+  @include make-outline-button($name, $color);
 }
 
 @each $name, $color in $full-palette {
   @include make-button($name, $color);
+  @include make-outline-button($name, $color);
 }
 
 @each $name, $color in $brand-colors {
   @include make-button($name, $color);
-
+  @include make-outline-button($name, $color);
 }

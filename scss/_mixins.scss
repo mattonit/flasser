@@ -28,3 +28,19 @@
     }
   }
 }
+
+@mixin make-outline-button($name, $color, $text-color: $color) {
+
+  @if (lightness($color) > 55) {
+    $text-color: darken($text-color, 15%);
+  }
+  .btn-outline-#{$name} {
+    color: $text-color;
+    box-shadow: inset 0 0 0 1px $btn-outline-border;
+
+    &:hover,
+    &:focus {
+      box-shadow: inset 0 0 0 1px $color;
+    }
+  }
+}
