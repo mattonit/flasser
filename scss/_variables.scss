@@ -77,20 +77,25 @@ $brand-colors: (
   "secondary": $secondary-color
 ) !default;
 
-$gradients: (
-  "brand": (
-    "start": $primary-color,
-    "end": $primary-color-accent
+$gradients: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$gradients: map-merge(
+  (
+    "brand": (
+      "start": $primary-color,
+      "end": $primary-color-accent
+    ),
+    "coral": (
+      "start": #e83e3e,
+      "end": #e83e62
+    ),
+    "sky": (
+      "start": #8bc6ec,
+      "end": #9599e2
+    )
   ),
-  "coral": (
-    "start": "#e83e3e",
-    "end": "#e83e62"
-  ),
-  "sky": (
-    "start": "#8BC6EC",
-    "end": "#9599E2"
-  )
-) !default;
+  $gradients
+);
 
 $use-gradients: true !default;
 $gradient-angle: 90deg !default;

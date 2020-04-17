@@ -82,3 +82,7 @@
   @include make-button($name, $color);
   @include make-outline-button($name, $color);
 }
+
+@each $name, $colors in $gradients {
+  @include make-gradient-button($name, map-get($colors, "start"), map-get($colors, "end"));
+}

@@ -1040,6 +1040,33 @@ body {
   .btn-outline-secondary:hover, .btn-outline-secondary:focus {
     box-shadow: inset 0 0 0 1px #363e71; }
 
+.btn-brand {
+  color: #fff;
+  background-color: #09cc8d;
+  background-image: linear-gradient(90deg, #09cc8d, #068e62); }
+  .btn-brand:focus, .btn-brand:hover {
+    background-image: linear-gradient(90deg, #08b47c, #057651); }
+  .btn-brand:active, .btn-brand.active {
+    background-image: linear-gradient(90deg, #07a572, #046747); }
+
+.btn-coral {
+  color: #fff;
+  background-color: #e83e3e;
+  background-image: linear-gradient(90deg, #e83e3e, #e83e62); }
+  .btn-coral:focus, .btn-coral:hover {
+    background-image: linear-gradient(90deg, #e52727, #e5274f); }
+  .btn-coral:active, .btn-coral.active {
+    background-image: linear-gradient(90deg, #e21b1b, #e21b45); }
+
+.btn-sky {
+  color: #808080;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(90deg, #8BC6EC, #9599E2); }
+  .btn-sky:focus, .btn-sky:hover {
+    background-image: linear-gradient(90deg, #75bbe8, #8186dd); }
+  .btn-sky:active, .btn-sky.active {
+    background-image: linear-gradient(90deg, #68b5e6, #757ad9); }
+
 .header {
   display: flex;
   align-items: center;

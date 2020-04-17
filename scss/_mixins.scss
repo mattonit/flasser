@@ -44,3 +44,24 @@
     }
   }
 }
+
+@mixin make-gradient-button($name, $start-color, $end-color, $text-color: $btn-txt-light) {
+  @if (lightness($start-color) > 65 and lightness($end-color) > 65) {
+    $text-color: $btn-txt-dark;
+  }
+  .btn-#{$name} {
+    color: $text-color;
+    background-color: $start-color;
+    background-image: linear-gradient($gradient-angle, $start-color, $end-color);
+
+    &:focus,
+    &:hover {
+      background-image: linear-gradient($gradient-angle, darken($start-color, 5%), darken($end-color, 5%));
+    }
+
+    &:active,
+    &.active {
+      background-image: linear-gradient($gradient-angle, darken($start-color, 8%), darken($end-color, 8%));
+    }
+  }
+}
