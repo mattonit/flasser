@@ -151,3 +151,15 @@ $input-font-size: $body-font-size !default;
 $input-border-radius: .25rem !default;
 $input-font-weight: $body-font-weight !default;
 $input-outline-color: $primary-color !default;
+
+// Card
+$card-box-shadow: rgba(0, 0, 0, .04) !default;
+$card-content-padding-y: 1.25rem !default;
+$card-content-padding-x: $card-content-padding-y !default;
+$card-title-padding-y: .75rem !default;
+$card-title-padding-x: 0 !default;
+$card-title-font-size: 1.25rem !default;
+$card-title-line-height: 1.5rem !default;
+$card-title-font-weight: 600 !default;
+$card-text-font-size: .9rem !default;
+$card-text-color: $grey-color !default;

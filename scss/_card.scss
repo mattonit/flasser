@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  color: $black-color;
+  background-color: $white-color;
+  box-shadow: 0 12px 24px 0 $card-box-shadow;
+
+  .card-content {
+    flex: 1 1 auto;
+    padding: $card-content-padding-y $card-content-padding-x;
+  }
+
+  .card-title {
+    padding: $card-title-padding-y $card-title-padding-x;
+    margin: 0;
+    font-size: $card-title-font-size;
+    font-weight: $card-title-font-weight;
+    line-height: $card-title-line-height;
+  }
+
+  .card-text {
+    margin-top: 0;
+    font-size: $card-text-font-size;
+    color: $card-text-color;
+  }
+}
