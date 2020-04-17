@@ -38,12 +38,57 @@ $functional-colors: (
   "warning": $warning-color
 ) !default;
 
-$dark-color: #141823 !default;
-$btn-txt-dark: #707070 !default;
-$btn-txt-light: #fff !default;
+$red: #f85032 !default;
+$orange: #f57c00 !default;
+$yellow: #fffc00 !default;
+$green: #4caf50 !default;
+$leaf: #3aa17e !default;
+$teal: #008080 !default;
+$blue: #0366d6 !default;
+$mint: #92ddc8 !default;
+$purple: #4a2dbe !default;
+$pink: #fc67fa !default;
 
-$white-color: #fff !default;
+$full-palette: (
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "leaf": $leaf,
+  "teal": $teal,
+  "blue": $blue,
+  "mint": $mint,
+  "purple": $purple,
+  "pink": $pink
+) !default;
+
+// Shades
+$black-color: #141823 !default;
 $grey-color: #808080 !default;
+$white-color: #fff !default;
+
+// Brand colors
+$primary-color: #09cc8d !default;
+$primary-color-accent: #068e62 !default;
+$secondary-color: #363e71 !default;
+
+$gradients: (
+  "brand": (
+    "start": $primary-color,
+    "end": $primary-color-accent
+  ),
+  "coral": (
+    "start": "#e83e3e",
+    "end": "#e83e62"
+  ),
+  "sky": (
+    "start": "#8BC6EC",
+    "end": "#9599E2"
+  )
+) !default;
+
+$use-gradients: true !default;
+$gradient-angle: 90deg !default;
 
 // Spacing
 $spacer: 1rem !default;
@@ -63,7 +108,7 @@ $spacers: map-merge(
 
 // Globals
 $body-bg-color: $white-color !default;
-$body-color: $dark-color !default;
+$body-color: $black-color !default;
 $body-font-size: 1rem !default;
 $body-font-weight: 400 !default;
 
@@ -89,3 +134,5 @@ $btn-md-padding-y: .625rem !default;
 $btn-md-padding-x: 1rem !default;
 $btn-lg-padding-y: .75rem !default;
 $btn-lg-padding-x: .625rem !default;
+$btn-txt-dark: $grey-color !default;
+$btn-txt-light: $white-color !default;
