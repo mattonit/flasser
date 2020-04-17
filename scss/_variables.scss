@@ -50,5 +50,15 @@ $body-color: $btn-txt-dark !default;
 $body-font-size: 1rem !default;
 $body-font-weight: 400 !default;
 
+// Inputs
+$input-btn-padding-y: .375rem !default;
+$input-btn-padding-x: .75rem !default;
+$input-font-size: $body-font-size !default;
+
 // Buttons variables
 $btn-disabled-opacity: .65 !default;
+$btn-padding-x: $input-btn-padding-x !default;
+$btn-padding-y: $input-btn-padding-y !default;
+$btn-font-size: $body-font-size !default;
+$btn-font-weight: $body-font-weight !default;
+$btn-border-radius: 3px !default;
