@@ -1,4 +1,19 @@
-// Colors
-.color {
-  color: #00a7bd;
+@each $name, $value in $full-palette {
+  .bg-#{$name} {
+    background-color: $value;
+  }
+
+  .txt-#{$name} {
+    color: $value;
+  }
+}
+
+@each $name, $value in $brand-colors {
+  .bg-#{$name} {
+    background-color: $value;
+  }
+
+  .txt-#{$name} {
+    color: $value;
+  }
 }

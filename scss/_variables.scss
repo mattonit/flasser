@@ -72,6 +72,11 @@ $primary-color: #09cc8d !default;
 $primary-color-accent: #068e62 !default;
 $secondary-color: #363e71 !default;
 
+$brand-colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color
+) !default;
+
 $gradients: (
   "brand": (
     "start": $primary-color,
